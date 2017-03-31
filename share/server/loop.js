@@ -25,6 +25,7 @@ function create_sandbox() {
     sandbox.send = Render.send;
     sandbox.getRow = Render.getRow;
     sandbox.isArray = isArray;
+    sandbox.index = Dreyfus.index;
   } catch (e) {
     var sandbox = {};
   }
